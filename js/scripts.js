@@ -35,6 +35,14 @@ jQuery(document).ready(function($) {
         
         
         
+//        fancybox
+
+
+    $(document).ready(function() {
+    	$(".fancybox").fancybox();
+    });
+            
+        
          
       
       
