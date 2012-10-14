@@ -132,7 +132,6 @@
 	background-color: #ff6633;
 	margin: 0 auto;
 	float: none;
-
 }
 .rsDefault .rsThumbsVer {
 	padding-right: 4px;
@@ -145,28 +144,28 @@
 .rsDefault.rsWithThumbsHor .rsThumbsContainer {
 	position: relative;
 	height: 100%;
-
 }
 .rsDefault.rsWithThumbsVer .rsThumbsContainer {
 	position: relative;
 	width: 100%;
+
 }
 .rsDefault .rsThumb {
 	float: left;
 	overflow: hidden;
 	width: 261px;
 	height: 147px;
+	border-top: 10px solid #fff;
 }
 .rsDefault .rsThumb img {
 	width: 100%;
 	height: 100%;
 }
 .rsDefault .rsThumb.rsNavSelected {
-	background: #02874a;
+	border-top: 10px solid #ff6633;
 }
 .rsDefault .rsThumb.rsNavSelected img {
-	opacity: 0.3;
-	filter: alpha(opacity=30);
+	
 }
 .rsDefault .rsTmb {
 	display: block;

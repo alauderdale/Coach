@@ -24,6 +24,7 @@ jQuery(document).ready(function($) {
           thumbs: {
               		// thumbnails options go gere
               		spacing: 0,
+              		autoCenter:true,
               		arrows: false
               	}
         });
