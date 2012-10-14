@@ -16,7 +16,7 @@ jQuery(document).ready(function($) {
           arrowsNav: false,    
           controlNavigation: 'thumbnails',
           thumbsFitInViewport: true,
-          navigateByClick: true,
+          navigateByClick: false,
           startSlideId: 0,
           autoPlay: false,
           transitionType:'move',
@@ -26,7 +26,11 @@ jQuery(document).ready(function($) {
               		spacing: 0,
               		autoCenter:true,
               		arrows: false
-              	}
+              	}, 
+          block: {
+          	// animated blocks options go gere
+          	moveEffect: 'right'
+          }
         });
         
         

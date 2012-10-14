@@ -185,6 +185,78 @@ ul.top-nav li{
 
 /*slider*/
 
+.rsGCaption{
+    text-align: left!important;
+    width: 960px!important;
+    margin: 0 auto!important;
+    float: none!important;
+    position: relative!important;
+    bottom: 360px;
+
+}
+
+.rsGCaption h1{
+    text-transform: uppercase;
+    font-size: 50pt;
+    color: #fff;
+    
+}
+
+.rsGCaption  h2{
+    text-transform: uppercase;
+    font-size: 25pt;
+    color: #000;
+    margin-bottom: 16px;
+    
+}
+
+.rsGCaption .bub{
+    width: 28px;
+    height: 26px;
+    background-image: url(images/bub.png);
+    float: left;
+    margin-left: 6px;
+    margin-top: -8px;
+}
+
+.rsGCaption h3{
+    text-transform: uppercase;
+    font-size: 15pt;
+    color: #000;
+    font-family: 'museo_sans_900regular';
+    float: left;
+}
+
+.rsGCaption .rs-action:hover h4{
+    text-decoration: underline;
+}
+
+.rsGCaption h4{
+    color: #ff6633;
+    text-transform: uppercase;
+    font-family: 'museo_sans_900regular';
+}
+
+
+.rs-action{
+    cursor: pointer;
+    transition-duration: .2s;
+    -moz-transition-duration: .2s; /* Firefox 4 */
+    -webkit-transition-duration: .2s; /* Safari and Chrome */
+    -o-transition-duration: .2s; /* Opera */
+    position: relative;
+    
+}
+
+.rs-action:hover{
+    top: -2px;
+    transition-duration: .2s;
+    -moz-transition-duration: .2s; /* Firefox 4 */
+    -webkit-transition-duration: .2s; /* Safari and Chrome */
+    -o-transition-duration: .2s; /* Opera */
+    
+}
+
 .home-slider{
     
 }
