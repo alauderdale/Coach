@@ -11,10 +11,10 @@
     <link href="<?php bloginfo('template_url'); ?>/css/rs-default.css" rel="stylesheet">  
     <link href="<?php bloginfo('template_url'); ?>/css/jquery.fancybox.css" rel="stylesheet">  
     <script  src="<?php bloginfo('template_url'); ?>/js/jquery-1.8.0.min.js"></script>
-    <!--  slider -->
-    <script src="<?php bloginfo('template_url'); ?>/js/jquery.royalslider.min.js"></script>
     <!--  fancybox -->
     <script src="<?php bloginfo('template_url'); ?>/js/jquery.fancybox.js"></script>
+    <!--  slider -->
+    <script src="<?php bloginfo('template_url'); ?>/js/jquery.royalslider.min.js"></script>
     <!--  custom -->
     <script src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
     <?php wp_head(); ?>
@@ -29,9 +29,9 @@
             <div class="header-info">
                 <p>visit fascatcoaching.com or call us 555.555.1212</p>
                 <nav>
-                    <ul class="top-nav">
+                    <div class="top-nav">
                         <?php wp_nav_menu( array( 'theme_location' => 'main_nav' ) );   ?>
-                    </ul>
+                    </div>
                 </nav>
                 <div class="clearfix"></div>
             </div><!--end header info-->

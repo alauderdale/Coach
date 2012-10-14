@@ -2,11 +2,16 @@
 
 jQuery(document).ready(function($) {
 
+//        fancybox
+
+    $('.fancybox').fancybox({
+    padding : 0
+    });
+
+//slider
 
       $('#gallery-1').royalSlider({
           slidesSpacing: 0,
-          arrowsNav: false,
-          arrowsNav: true,
           loop: true,
           keyboardNavEnabled: true,
           controlsInside: false,
@@ -35,13 +40,15 @@ jQuery(document).ready(function($) {
         
         
         
-//        fancybox
-
-
-    $(document).ready(function() {
-    	$(".fancybox").fancybox();
-    });
-            
+        var sliderInstance = $(".royalSlider").data('royalSlider');
+        
+        $('.next-slide').click(function(){
+        
+            sliderInstance.next();
+        	console.log('Testing console');
+        	$.fancybox.next();
+        
+        });
         
          
       

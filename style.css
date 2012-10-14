@@ -167,14 +167,14 @@ header{
 
 /*top nav*/
 
-ul.top-nav{
+.top-nav ul{
     list-style: none;
     float: right;
     margin-bottom: 64px;
 
 }
 
-ul.top-nav li{
+.top-nav ul li{
     float: left;
     margin-left: 20px;
     font-family: 'museo_sans_900regular';
@@ -203,6 +203,7 @@ ul.top-nav li{
     float: none!important;
     position: relative!important;
     bottom: 360px;
+     pointer-events:none;
 
 }
 
@@ -269,9 +270,6 @@ ul.top-nav li{
     
 }
 
-.home-slider{
-    
-}
 
 #gallery-1{
    margin: 0 auto;
@@ -284,6 +282,48 @@ ul.top-nav li{
     margin-top: -133px;
     z-index: -999;
 }
+
+
+/*overlay*/
+
+.fancybox-nav{
+    display: none!important;
+}
+
+
+.fc-overlay{
+    color: #fff;
+    width: 500px;
+}
+
+.fc-overlay h1{
+    text-transform: uppercase;
+    font-size: 30pt;
+    line-height: 90%;
+}
+
+.fc-overlay h2{
+    text-transform: uppercase;
+    font-size: 15pt;
+    margin-bottom: 30px;
+}
+
+.fc-overlay p{
+    font-family: 'museo_sans_900regular';
+    line-height: 170%;
+    color: #fff!important;
+    font-size: 10.5pt;
+    margin-bottom: 10px;
+}
+
+.fc-overlay a{
+    font-family: 'museo_sans_900regular'!important;
+    text-decoration: none!important;
+    font-size: 11pt;
+    text-transform: uppercase;
+}
+
+
 
 /*footer*/
 

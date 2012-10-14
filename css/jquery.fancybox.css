@@ -26,7 +26,7 @@
 
 .fancybox-skin {
 	position: relative;
-	background: #f9f9f9;
+	background: none;
 	color: #444;
 	text-shadow: none;
 	-webkit-border-radius: 4px;
@@ -101,10 +101,11 @@
 	position: absolute;
 	top: -18px;
 	right: -18px;
-	width: 36px;
-	height: 36px;
+	width: 47px;
+	height: 47px;
 	cursor: pointer;
 	z-index: 8040;
+	background: url('close.png') center center no-repeat;
 }
 
 .fancybox-nav {

@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-        <div class="wrapped">
         <!--start the loop-->
         <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
@@ -8,7 +7,6 @@
         <!--end the loop-->
         <?php endwhile; ?>
         <?php endif; ?>
-        </div>
         
         
 <?php get_footer(); ?>
