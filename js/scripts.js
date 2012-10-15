@@ -2,7 +2,16 @@
 
 jQuery(document).ready(function($) {
 
+
+//$(function() {
+//$('body').css('display','none');
+// $('body').fadeIn(400);
+//});
+
+
 //        fancybox
+
+    
 
     $('.fancybox').fancybox({
     padding : 0
@@ -52,7 +61,19 @@ jQuery(document).ready(function($) {
         
          
       
-      
+//      tabs
+
+          
+          
+          $("#usual2").idTabs(function(id,list,set){ 
+            $("a",set).removeClass("selected") 
+            .filter("[href='"+id+"']",set).addClass("selected"); 
+            for(i in list) 
+              $(list[i]).hide(); 
+            $(id).fadeIn(); 
+            return false; 
+          });  
+          
       
 });
 

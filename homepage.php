@@ -63,7 +63,7 @@ Template Name: Homepage
                     </h2>
                     <p><?php the_content(); ?></p>
                     <a onclick="return false" class="next-slide" href="#">Next Athlete |</a>
-                    <a href="#">Coaching Programs</a>
+                    <a href="index.php?pagename=coaching">Coaching Programs</a>
                 </div>
             </div>
         <?php endwhile; ?>

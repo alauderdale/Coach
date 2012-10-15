@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name: Chart
+ */
+?>
+
 <?php get_header(); ?>
 
         <div class="wrapped">

@@ -15,6 +15,8 @@
     <script src="<?php bloginfo('template_url'); ?>/js/jquery.fancybox.js"></script>
     <!--  slider -->
     <script src="<?php bloginfo('template_url'); ?>/js/jquery.royalslider.min.js"></script>
+    <!--    tabs-->
+    <script src="<?php bloginfo('template_url'); ?>/js/tab.js"></script>
     <!--  custom -->
     <script src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
     <?php wp_head(); ?>
