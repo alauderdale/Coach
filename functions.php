@@ -58,6 +58,24 @@ $meta_box = array(
 			'type' => 'button',
 			'std' => 'Browse'
 		),
+		
+		array(
+			'name' => 'Title Text',
+			'desc' => 'add title text',
+			'id' => 'title_text',
+			'type' => 'text',
+			'std' => ''
+		),
+		
+		array(
+			'name' => 'Sub Text',
+			'desc' => 'add sub text',
+			'id' => 'sub_text',
+			'type' => 'text',
+			'std' => ''
+		),
+		
+		
 	)
 );
  

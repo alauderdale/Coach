@@ -38,7 +38,7 @@
                 <div class="clearfix"></div>
             </div><!--end header info-->
             <div class="slogan">
-                <h1>Be a <span class="orange">fastcat.</span></h1>
+                <h1>Be a <span class="orange">fascat.</span></h1>
             </div><!--end slogan-->
         </div><!--end header right-->
     </header>

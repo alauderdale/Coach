@@ -32,10 +32,10 @@ Template Name: Homepage
                       <img width="261" height="147" class="rsTmb" src="<?php echo get_post_meta($post->ID, 'upload_image', true); ?>" />
                       <div class="rsABlock">
                           <h1>
-                              I&apos;m a <span class="orange">fascat.</span>
+                              <?php echo get_post_meta($post->ID, 'title_text', true); ?>
                           </h1>
                           <h2>
-                             And you can be too.                  
+                             <?php echo get_post_meta($post->ID, 'sub_text', true); ?>                
                          </h2>
                          <div class="rs-action">
                              <h3>See what <?php the_title(); ?>  says</h3>
