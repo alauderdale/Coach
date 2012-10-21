@@ -41,11 +41,15 @@ Template Name: Homepage
                              <h3>See what <?php the_title(); ?>  says</h3>
                              <div class="bub"></div>
                              <div class="clearfix"></div>
-                             <h4>Learn more about our coaching programs</h4>
                          </div><!--end rs action-->
                      </div><!--end rs block-->
                     </a><!--end image-->
-                  </div><!--end rs content-->
+                    <div class="wrapped">
+                        <a href="index.php?pagename=coaching" class="learn-more-link">Learn more about our coaching programs</a>
+                    </div>
+                    
+               </div><!--end rs content-->
+               
             <?php endwhile; ?>
 <!--              end slide-->
              </div><!--end rs slider-->

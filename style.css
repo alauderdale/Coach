@@ -103,6 +103,11 @@ h1{
     font-size: 25pt;
 }
 
+sm{
+    font-size: 8pt;
+}
+
+
 .bolder{
     font-family: 'museo_sans_900regular'!important;
 }
@@ -125,7 +130,64 @@ h1{
 }
 
 .orange{
-    color: #ff6633;
+    color: #ff6633!important;
+}
+
+.light{
+    font-family: 'museo_sans_100regular';
+}
+
+
+.orange-bg{
+    background-color: rgba(255, 101, 50, 0.48);
+    transition-duration: .2s;
+    -moz-transition-duration: .2s; /* Firefox 4 */
+    -webkit-transition-duration: .2s; /* Safari and Chrome */
+    -o-transition-duration: .2s; /* Opera */
+}
+
+a.orange-select{
+    background-color: rgba(255, 101, 50, 0.48);
+    float: left;
+    width: 135px;
+    height: 702px;
+    margin-left: -135px;
+    z-index: 400;
+    position: relative;
+    margin-bottom: -702px;
+    display: none;
+    top: 20px;
+
+}
+
+a.orange-select-two{
+    background-color: rgba(255, 101, 50, 0.48);
+    float: left;
+    width: 165px;
+    height: 702px;
+    margin-left: -135px;
+    z-index: 400;
+    position: relative;
+    margin-bottom: -702px;
+    display: none;
+    top: 20px;
+
+}
+
+.orange-top{
+     background-color: rgba(255, 101, 50, 0.31);
+     height: 132px;
+}
+.orange-select p, .orange-select-two p{
+    position: relative;
+    left: 74px;
+    top: 63px;
+    color: #fff;
+    font-family: 'museo_sans_900regular';
+    text-decoration: underline;
+    font-size: 10pt;
+     pointer-events:none;
+    
 }
 
 /*links*/
@@ -224,6 +286,19 @@ header{
 }
 
 /*slider*/
+
+.learn-more-link{
+    position: relative;
+    float: left;
+    position: absolute;
+    bottom: 44px;
+    z-index: 300;
+    color: #ff6633;
+    margin-left: -9px;
+    text-transform: uppercase;
+    font-family: 'museo_sans_900regular';
+    
+}
 
 .rsGCaption{
     text-align: left!important;
@@ -354,6 +429,14 @@ header{
 
 /*chart*/
 
+.first-d{
+    width: 163px!important;
+}
+
+.bolder td{
+    width: 200px;
+}
+
 .chart h1, .chart h2{
     text-align: center;
     color: #000;
@@ -375,6 +458,7 @@ header{
     background-color: #fff;
     box-shadow: 0px 0px 10px rgba(0,0,0,.1);
     margin-top: 60px;
+    float: left;
 }
 
 .chart-content{
@@ -386,14 +470,27 @@ header{
 
 .pricing-square{
     float: left;
-    width: 123px;
     height: 123px;
-    margin-right: 20px;
+    margin-right: 18px;
     padding: 5px;
+}
+
+.five-col{
+    width: 123px;
+}
+
+.four-col{
+    width: 153px;
 }
 
 .level{
     background-color: rgba(0,0,0,.1);
+    display: block;
+}
+
+.level-two{
+    background-color: rgba(0,0,0,.1);
+    display: block;
 }
 
 .level:nth-child(3){
@@ -411,6 +508,7 @@ header{
 .level:nth-child(6){
     background-color: rgba(0,0,0,.17);
 }
+
 
 .level h1{
     color: #fff!important;
@@ -431,6 +529,10 @@ header{
     text-align: left!important;
     font-size: 29pt!important;
     font-family: 'museo_sans_900regular'!important;
+}
+
+.pricing-first-of-type{
+    margin-left: 3px;
 }
 
 .pricing-square:last-of-type{
@@ -515,7 +617,6 @@ table.chart-table {
     margin-top: 20px;
     margin-bottom: 30px;
     padding-bottom: 30px;
-    border-bottom: 1px solid #ccc;
 }
 
 .chart-table tr{
@@ -526,6 +627,11 @@ table.chart-table {
 .chart-table td{
     padding-left: 10px;
     margin: 0!important;
+    width: 213px;
+}
+
+.table-two td{
+    width: 168px!important;
 }
 
  .chart-table td:nth-child(4), .chart-table td:nth-child(5), .chart-table td:nth-child(6){
@@ -534,6 +640,17 @@ table.chart-table {
 
 .chart-table tr:nth-child(odd){
     background-color: #ffffd9;
+}
+
+.buy-now{
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.buy-now h2{
+    color: #666666;
 }
 
 .below-table-info{
@@ -557,8 +674,22 @@ table.chart-table {
 
 ul.services-list{
     list-style: none;
-    font-size: 17pt;
+    font-size: 20pt;
+    font-family: 'museo_sans_900regular';
 }
+
+ul.services-list li a{
+
+    color: #ff6633!important;
+    text-decoration: none;
+}
+
+ul.services-list li a:hover{
+
+    color: #df3800!important;
+
+}
+
 
 ul.services-list li{
     margin-bottom: 10px;

@@ -7,6 +7,7 @@
     //main nav
     
     register_nav_menu( 'main_nav', __( 'Main navigation menu', 'mytheme' ) );
+    register_nav_menu( 'chart_nav', __( 'Chart navigation menu', 'mytheme' ) );
     
     
     //create post types
