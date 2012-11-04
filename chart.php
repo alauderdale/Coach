@@ -17,16 +17,40 @@ Template Name: chart
                     <li><a href="#tabs2" >Cyclo-cross</a></li> 
                   </ul> 
                   <div class="clearfix"></div>
-                  <a href="www.google.com" target="_blank" class="orange-select">
-                      <div class="orange-top">
-                          <p>Buy Now</p>
-                      </div>
-                  </a>
-                  <a href="www.google.com" target="_blank" class="orange-select-two">
-                      <div class="orange-top">
-                          <p>Buy Now</p>
-                      </div>
-                  </a>
+                  <div class="orange-select">
+                      <a target="_blank" href="http://www.fascatpowermeters.com/fascat-coaching-level-1/" class="orange-top hidden table-link-1">
+                        <p>Buy Now</p>
+                     </a>
+                     <a target="_blank" href="http://www.fascatpowermeters.com/fascat-coaching-level-2/" class="orange-top hidden table-link-2">
+                        <p>Buy Now</p>
+                     </a>
+                     <a target="_blank" href="http://www.fascatpowermeters.com/fascat-coaching-level-3/" class="orange-top hidden table-link-3">
+                        <p>Buy Now</p>
+                     </a>
+                     <a target="_blank" href="http://www.fascatpowermeters.com/fascat-coaching-level-4/" class="orange-top hidden table-link-4">
+                        <p>Buy Now</p>
+                     </a>
+                     <a target="_blank" href="http://www.fascatpowermeters.com/fascat-coaching-level-5/" class="orange-top hidden table-link-5">
+                        <p>Buy Now</p>
+                     </a>
+                  </div>
+                  <div class="orange-select-two">
+                       <a target="_blank" href="http://www.fascatpowermeters.com/fascat-coaching-level-1/" class="orange-top hidden table-link-1">
+                         <p>Buy Now</p>
+                      </a>
+                      <a target="_blank" href="http://www.fascatpowermeters.com/fascat-coaching-level-2/" class="orange-top hidden table-link-2">
+                         <p>Buy Now</p>
+                      </a>
+                      <a target="_blank" href="http://www.fascatpowermeters.com/fascat-coaching-level-3/" class="orange-top hidden table-link-3">
+                         <p>Buy Now</p>
+                      </a>
+                      <a target="_blank" href="http://www.fascatpowermeters.com/fascat-coaching-level-4/" class="orange-top hidden table-link-4">
+                         <p>Buy Now</p>
+                      </a>
+                      <a target="_blank" href="http://www.fascatpowermeters.com/fascat-coaching-level-5/" class="orange-top hidden table-link-5">
+                         <p>Buy Now</p>
+                      </a>
+                  </div>
                   <div id="tabs1" style="display: block; ">
                       <div class="chart-content">
                          <div class="pricing">
@@ -35,7 +59,7 @@ Template Name: chart
                                      Need help in figuring out what level is right for you?
                                  </h1>
                                  <p>Give us a call at</p>
-                                 <h3 class="orange">555.555.1212</h3>
+                                 <h3 class="orange">720.406.7444</h3>
                              </div>
                              <div class="pricing-square level t-one five-col">
                                  <h1>Level 1</h1>
@@ -277,23 +301,6 @@ Template Name: chart
                              </tr>
                              
                          </table>
-                         <div class="buy-now">
-                             <h2 class="bolder">
-                                 <a href="#" class="orange">Buy Now</a>
-                                 <br/>
-                                 or <br/>
-                                 give us a call <br/>
-                                 <span class="orange light">720.406.7444</span>
-                             </h2>
-                             
-                         </div>
-                         <div class="below-table-info">
-                             <h1>Be a FasCat</h1>
-                             <h2>There are many ways for you to become a FasCat. </h2>
-                             <h2><span class="bolder">Give us a call today or <a href="#">email us</a></span><br/>
-                             555.555.1212</h2>
-                              <?php wp_nav_menu( array( 'menu_class'  => 'services-list', 'theme_location' => 'chart_nav' ) );   ?>
-                         </div>
                       </div><!--end chart-content-->
                   </div> <!--end tabs-->
                   <div id="tabs2" style="display: none; ">
@@ -304,7 +311,7 @@ Template Name: chart
                                      Need help in figuring out what level is right for you?
                                  </h1>
                                  <p>Give us a call at</p>
-                                 <h3 class="orange">555.555.1212</h3>
+                                 <h3 class="orange">720.406.7444</h3>
                              </div>
                              <div class="pricing-square level t-two four-col">
                                  <h1>Level 1</h1>
@@ -367,6 +374,71 @@ Template Name: chart
                                  </td>
                              </tr>
                              <tr>
+                                 <td class="first-d" >
+                                     <span>
+                                     Suitable For
+                                     </span>
+                                 </td>
+                                 <td >
+                                     <sm>
+                                     Athletes that do not want coached skills practice (especially remote athletes)
+                                     </sm>
+                                 </td>
+                                 <td >
+                                     <sm>
+                                     Local Athletes that want some coached skills practice or Remote athlete that want to train w/ power & video analysis
+                                     </sm>
+                                 </td>
+                                 <td >
+                                     <sm>
+                                     Local Athlete that wants regular hands on coached skill practice & to leverage power based training by real time monitoring
+                                     </sm>
+                                 </td>
+                                 <td >
+                                     <sm>
+                                     Local Athlete that wants weekly hands on coached skills practice + race day coaching
+                                     </sm>
+                                 </td>
+                             </tr>
+                             <tr>
+                                 <td class="first-d">    
+                                     <span>                                         
+                                         Remote Athlete <br/> Skills Practice
+                                     </span>
+                                 </td>
+                                 <td class="bolder">
+                                     n/a
+                                 </td>
+                                 <td class="bolder">
+                                     video
+                                 </td>
+                                 <td class="bolder">
+                                     video
+                                 </td>
+                                 <td class="bolder">
+                                     video
+                                 </td>
+                             </tr>
+                             <tr>
+                                 <td class="first-d">    
+                                     <span>                                         
+                                         Local Athlete <br/> Skills Practice
+                                     </span>
+                                 </td>
+                                 <td class="bolder">
+                                     assessement <br/> at start up
+                                 </td>
+                                 <td class="bolder">
+                                     monthly
+                                 </td>
+                                 <td class="bolder">
+                                     weekly
+                                 </td>
+                                 <td class="bolder">
+                                     weekly + race day
+                                 </td>
+                             </tr>
+                             <tr>
                                  <td class="first-d">
                                      <span>
                                          Power Based <br/> Training
@@ -395,13 +467,13 @@ Template Name: chart
                                      weekly
                                  </td>
                                  <td class="bolder">
-                                     daily
-                                 </td>
-                                 <td class="bolder">
-                                     weekly
+                                     weekly &amp; daily
                                  </td>
                                  <td class="bolder">
                                      daily
+                                 </td>
+                                 <td class="bolder">
+                                     in real time
                                  </td>
                              </tr>
                              <tr>
@@ -420,26 +492,26 @@ Template Name: chart
                                      weekly
                                  </td>
                                  <td class="bolder">
-                                     extensively
+                                     daily
                                  </td>
                              </tr>
                              <tr>
                                  <td class="first-d" >
                                      <span>
-                                     Field <br/> Testing
+                                     Physiological Testing
                                      </span>
                                  </td>
                                  <td class="bolder">
-                                     X
+                                     discounted
                                  </td>
                                  <td class="bolder">
-                                     X
+                                     discounted
                                  </td>
                                  <td class="bolder">
-                                     X
+                                     pre-season
                                  </td>
                                  <td class="bolder">
-                                     X
+                                     2 tests: pre &amp; mid-season
                                  </td>
                              </tr>
                              <tr>
@@ -497,12 +569,29 @@ Template Name: chart
                                      
                                  </td>
                                  <td class="bolder">
-                                     Discounted
+                                     X
                                  </td>
                              </tr>
                          </table>
                   </div>  
             </div> 
+            <div class="buy-now">
+                <h2 class="bolder">
+                    <a href="#" class="orange">Buy Now</a>
+                    <br/>
+                    or <br/>
+                    give us a call <br/>
+                    <span class="orange light">720.406.7444</span>
+                </h2>
+                
+            </div>
+            <div class="below-table-info">
+                <h1>Be a FasCat</h1>
+                <h2>There are many ways for you to become a FasCat. </h2>
+                <h2><span class="bolder">Give us a call today or <a href="#">email us</a></span><br/>
+                720.406.7444</h2>
+                 <?php wp_nav_menu( array( 'menu_class'  => 'services-list', 'theme_location' => 'chart_nav' ) );   ?>
+            </div>
         </div>
     </div>
 </div>

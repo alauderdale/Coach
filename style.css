@@ -96,15 +96,43 @@ body{
 /*type*/
 
 p{
-    color: #999999;
+    color: #666;
+    font-size: 12pt;
+    margin-bottom: 20px;
 }
 
 h1{
-    font-size: 25pt;
+    font-size: 32pt;
+    margin-bottom: 20px;
+    font-family: 'museo_sans_100regular';
+    color: #000;
+}
+
+h2{
+    font-size: 16pt;
+    margin-bottom: 20px;
+    line-height: 120%;
+    font-family: 'museo_sans_500regular';
+    color: #666;
+}
+
+h3 {
+    font-family: 'museo_sans_900regular';
+    font-size: 14pt;
+    color: #666;
+    margin-bottom: 10px;
 }
 
 sm{
     font-size: 8pt;
+}
+
+em{
+    font-style: italic;
+}
+
+strong {
+    font-family: 'museo_sans_900regular';
 }
 
 
@@ -146,7 +174,13 @@ sm{
     -o-transition-duration: .2s; /* Opera */
 }
 
-a.orange-select{
+.orange-select-two .orange-top {
+
+width: 164px;
+
+}
+
+.orange-select{
     background-color: rgba(255, 101, 50, 0.48);
     float: left;
     width: 135px;
@@ -155,17 +189,17 @@ a.orange-select{
     z-index: 400;
     position: relative;
     margin-bottom: -702px;
-    display: none;
     top: 20px;
-
+    display: none;
 }
 
-a.orange-select-two{
+
+.orange-select-two{
     background-color: rgba(255, 101, 50, 0.48);
     float: left;
     width: 165px;
-    height: 702px;
-    margin-left: -135px;
+    height: 802px;
+    margin-left: -155px;
     z-index: 400;
     position: relative;
     margin-bottom: -702px;
@@ -175,8 +209,10 @@ a.orange-select-two{
 }
 
 .orange-top{
-     background-color: rgba(255, 101, 50, 0.31);
+/*     background-color: rgba(255, 101, 50, 0.31);*/
      height: 132px;
+     width: 134px;
+     float: left;
 }
 .orange-select p, .orange-select-two p{
     position: relative;
@@ -188,6 +224,10 @@ a.orange-select-two{
     font-size: 10pt;
      pointer-events:none;
     
+}
+
+.hidden{
+    display: none;
 }
 
 /*links*/
@@ -314,14 +354,15 @@ header{
 .rsGCaption h1{
     text-transform: uppercase;
     font-size: 50pt;
-    color: #fff;
+    color: #fff!important;
+    margin-bottom: 0;
     
 }
 
 .rsGCaption  h2{
     text-transform: uppercase;
     font-size: 25pt;
-    color: #000;
+    color: #000!important;
     margin-bottom: 16px;
     
 }
@@ -390,6 +431,15 @@ header{
 
 /*overlay*/
 
+.overlay-link-divider{
+    padding: 0 5px;
+    font-weight: bold;
+    font-family: 'museo_sans_900regular';
+    margin-top: -2px;
+    position: relative;
+    top: -3px;
+}
+
 .fancybox-nav{
     display: none!important;
 }
@@ -404,12 +454,15 @@ header{
     text-transform: uppercase;
     font-size: 30pt;
     line-height: 90%;
+    color: #fff;
+    margin-bottom: 0;
 }
 
 .fc-overlay h2{
     text-transform: uppercase;
     font-size: 15pt;
     margin-bottom: 30px;
+    color: #fff!important;
 }
 
 .fc-overlay p{
@@ -425,6 +478,70 @@ header{
     text-decoration: none!important;
     font-size: 11pt;
     text-transform: uppercase;
+}
+
+/*page*/
+
+.page-wrapper{
+    min-height: 400px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.1);
+    margin-top: -100px;
+    float: left;
+    background-image: url(images/table-cat.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding:50px 10px 80px 80px;
+    z-index: 999;
+    
+}
+
+.page-bg-wrap{
+        height: 350px;
+        background-color: #000;
+        overflow: hidden;
+        position: relative;
+        z-index: -1;
+}
+
+.page-bg{
+    position: absolute;
+    left: 50%;
+    margin-left: -1000px;
+    width: 2000px;
+    height: 350px;
+    background-position: 322px -306px;
+    background-size:68%;
+    background-repeat: no-repeat;
+}
+
+.page-content{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.page-main{
+    width: 570px;
+}
+
+.page-sidebar{
+    width: 160px;
+    margin-left: 50px;
+}
+
+.page-sidebar p{
+    margin-bottom: 5px;
+}
+
+.page-sidebar a.cta{
+    text-decoration: none;
+    font-family: 'museo_sans_500regular';
+    font-size: 14pt;
+}
+
+.page-sidebar img{
+    margin-top: 40px;
 }
 
 /*chart*/
@@ -459,6 +576,9 @@ header{
     box-shadow: 0px 0px 10px rgba(0,0,0,.1);
     margin-top: 60px;
     float: left;
+    background-image: url(images/table-cat.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 .chart-content{
@@ -655,7 +775,6 @@ table.chart-table {
 
 .below-table-info{
     text-align: center;
-    background-image: url(images/table-cat.png);
     background-repeat: no-repeat;
     background-position: right;
     background-position: 600px 180px;
@@ -692,7 +811,7 @@ ul.services-list li a:hover{
 
 
 ul.services-list li{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 /*footer*/
@@ -704,9 +823,16 @@ footer{
 }
 
 .footer-top{
+    padding-top: 20px;
     margin-bottom: 10px;
     float: left;
     width: 100%;
+}
+
+.footer-top p{
+    font-size: 8pt;
+    margin-bottom: 0;
+    color: #999;
 }
 
 ul.footer-links li a{
@@ -742,4 +868,5 @@ ul.footer-links li:last-of-type{
 
 .footer-disclaimer p{
     color: #cccccc;
+    font-size: 8pt;
 }

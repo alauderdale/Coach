@@ -66,7 +66,8 @@ Template Name: Homepage
                         And you can be too.                  
                     </h2>
                     <p><?php the_content(); ?></p>
-                    <a onclick="return false" class="next-slide" href="#">Next Athlete |</a>
+                    <a onclick="return false" class="next-slide" href="#">Next Athlete</a>
+                    <span class="orange overlay-link-divider">|</span>
                     <a href="index.php?pagename=coaching">Coaching Programs</a>
                 </div>
             </div>

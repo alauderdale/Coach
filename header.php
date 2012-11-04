@@ -29,7 +29,7 @@
         </a>
         <div class="header-right">
             <div class="header-info">
-                <p>visit fascatcoaching.com or call us 555.555.1212</p>
+                <p>visit fascatcoaching.com or call us 720.406.7444</p>
                 <nav>
                     <div class="top-nav">
                         <?php wp_nav_menu( array( 'theme_location' => 'main_nav' ) );   ?>
