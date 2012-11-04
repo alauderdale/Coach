@@ -26,10 +26,10 @@ Template Name: Chart
                     <?php endif; ?>
                 </div>
                 <div class="page-sidebar right">
-                    <h3>Text promo lorem ipsom dolor </h3>
-                    <p>Sub line lorem ipsom dolor sit amet</p>
-                    <a class="cta" href="#">Call To action</a>
-                    <img src="http://placekitten.com/160/285"/>
+                    <h3><?php echo get_post_meta($post->ID, 'sidebar_promo', true); ?> </h3>
+                    <p><?php echo get_post_meta($post->ID, 'sidebar_promo_sub', true); ?> </p>
+                    <a class="cta" href="<?php echo get_post_meta($post->ID, 'call_to_a_link', true); ?>"><?php echo get_post_meta($post->ID, 'call_to_a_title', true); ?> </a>
+                    <img src="<?php echo get_post_meta($post->ID, 'upload_image', true); ?>"/>
                 </div>
             </div>
             <div class="clearfix"></div>
