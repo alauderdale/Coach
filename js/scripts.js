@@ -9,24 +9,17 @@ jQuery(document).ready(function($) {
 //});
 
 
-//        fancybox
-
-    
-
-    $('.fancybox').fancybox({
-    padding : 0
-    });
 
 //slider
 
       $('#gallery-1').royalSlider({
           slidesSpacing: 0,
-          loop: true,
+          loopRewind: true,
           keyboardNavEnabled: true,
           controlsInside: false,
           imageScaleMode: 'fill',
           arrowsNavAutoHide: false,
-          autoScaleSlider: true, 
+          autoScaleSlider: false, 
           arrowsNav: false,    
           controlNavigation: 'thumbnails',
           thumbsFitInViewport: true,
@@ -35,6 +28,7 @@ jQuery(document).ready(function($) {
           autoPlay: false,
           transitionType:'move',
           globalCaption: true, 
+          numImagesToPreload: 100,
           thumbs: {
               		// thumbnails options go gere
               		spacing: 0,
@@ -46,18 +40,30 @@ jQuery(document).ready(function($) {
           	moveEffect: 'right'
           }
         });
+
+      //        fancybox
+
+    
+
+        $('.fancybox').fancybox({
+        padding : 0,
+        preload: 30
+        });
         
         
         
-        var sliderInstance = $(".royalSlider").data('royalSlider');
+        
         
         $('.next-slide').click(function(){
-        
-            sliderInstance.next();
-        	console.log('Testing console');
-        	$.fancybox.next();
+          $.fancybox.next();
+
+          var sliderInstance = $(".royalSlider").data('royalSlider');
+          sliderInstance.next();
+
         
         });
+
+        
         
         
         

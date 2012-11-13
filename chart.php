@@ -56,7 +56,7 @@ Template Name: chart
                          <div class="pricing">
                              <div class="pricing-square five-col">
                                  <h1>
-                                     Need help in figuring out what level is right for you?
+                                     Need help in figuring out what level is right for you?
                                  </h1>
                                  <p>Give us a call at</p>
                                  <h3 class="orange">720.406.7444</h3>
@@ -89,11 +89,11 @@ Template Name: chart
                          </div><!--end pricing-->
                          <div class="level-disclaimer">
                              <div class="dis dis-left">
-                                 <p>Levels 1 & 2 are with Associate Coaches 
+                                 <p>Levels 1 &amp; 2 are with Associate Coaches 
                                  </p>
                              </div>
                              <div class="dis dis-right">
-                                 <p>Levels 1 & 2 are with Associate Coaches 
+                                 <p>Levels 1 &amp; 2 are with Associate Coaches 
                                  </p>
                              </div>
                              <div class="clearfix">
@@ -125,7 +125,7 @@ Template Name: chart
                              <tr>
                                  <td class="first-d">    
                                      <span>                                         
-                                         Start-up <br/> Fee
+                                         Start-up <br/> Fee
                                      </span>
                                  </td>
                                  <td class="bolder">
@@ -147,7 +147,7 @@ Template Name: chart
                              <tr>
                                  <td class="first-d">
                                      <span>
-                                         Power Based <br/> Training
+                                         Power Based <br/> Training
                                      </span>
                                  </td>
                                  <td class="bolder">
@@ -169,7 +169,7 @@ Template Name: chart
                              <tr>
                                  <td class="first-d" >
                                      <span>
-                                     Power Data <br/>Review
+                                     Power Data <br/>Review
                                      </span>
                                  </td>
                                  <td class="bolder">
@@ -191,7 +191,7 @@ Template Name: chart
                              <tr>
                                  <td class="first-d" >
                                      <span>
-                                     Communication <br/> Frequency
+                                     Communication <br/> Frequency
                                      </span>
                                  </td>
                                  <td class="bolder">
@@ -258,7 +258,7 @@ Template Name: chart
                                  <td class="first-d" >
                                      <span>
                                      100% Discount <br/>
-                                     <sm>on ALL Camps & Clinics, Bike Fits, PowerMeters, Lab Testing, & Indoor Cycling Classes</sm>
+                                     <sm>on ALL Camps &amp; Clinics, Bike Fits, PowerMeters, Lab Testing, & Indoor Cycling Classes</sm>
                                      </span>
                                  </td>
                                  <td class="bolder">
@@ -577,7 +577,7 @@ Template Name: chart
             </div> 
             <div class="buy-now">
                 <h2 class="bolder">
-                    <a href="#" class="orange">Buy Now</a>
+                    <a href="mailto:info@fascatcoaching.com" class="orange">Email Us</a>
                     <br/>
                     or <br/>
                     give us a call <br/>
@@ -588,7 +588,7 @@ Template Name: chart
             <div class="below-table-info">
                 <h1>Be a FasCat</h1>
                 <h2>There are many ways for you to become a FasCat. </h2>
-                <h2><span class="bolder">Give us a call today or <a href="#">email us</a></span><br/>
+                <h2><span class="bolder">Give us a call today or <a href="mailto:info@fascatcoaching.com">email us</a></span><br/>
                 720.406.7444</h2>
                  <?php wp_nav_menu( array( 'menu_class'  => 'services-list', 'theme_location' => 'chart_nav' ) );   ?>
             </div>

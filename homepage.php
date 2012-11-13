@@ -17,13 +17,14 @@ Template Name: Homepage
             <div id="gallery-1" class="royalSlider rsDefault fwImage col span_4">
 <!--            begin slide-->
             <?php
-            $fastcatloop = new WP_Query( array( 'post_type' => 'fastcat') );
+            $fastcatloop = new WP_Query( array( 'post_type' => 'fastcat', 'orderby' => 'date', 'posts_per_page' => -1,
+'order' => 'DESC') );
              ?>
              <?php while ( $fastcatloop->have_posts() ) : $fastcatloop->the_post(); ?>
              
                 <div class="rsContent">
-                    <a class="rsLink fancybox" rel="rider"  href="#inline-<?php the_ID(); ?>"></a>
-                    <a class="rsImg"  data-rsDelay="1000" data-rsBigImg="<?php
+                    <a class="rsLink fancybox" data-fancybox-group="rider" href="#inline-<?php the_ID(); ?>"></a>
+                    <a class="rsImg"  data-rsBigImg="<?php
                     $imgsrc2 = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full");
                     echo $imgsrc2[0];
                     ?>" href="<?php

@@ -29,15 +29,17 @@ Template Name: Chart
                     <h3><?php echo get_post_meta($post->ID, 'sidebar_promo', true); ?> </h3>
                     <p><?php echo get_post_meta($post->ID, 'sidebar_promo_sub', true); ?> </p>
                     <a class="cta" href="<?php echo get_post_meta($post->ID, 'call_to_a_link', true); ?>"><?php echo get_post_meta($post->ID, 'call_to_a_title', true); ?> </a>
-                    <img src="<?php echo get_post_meta($post->ID, 'upload_image', true); ?>"/>
+                    <a target="_blank" href="<?php echo get_post_meta($post->ID, 'side_link', true); ?>">
+                        <img src="<?php echo get_post_meta($post->ID, 'upload_image', true); ?>"/>
+                    </a>
                 </div>
             </div>
             <div class="clearfix"></div>
             <div class="below-table-info">
                 <h1>Be a FasCat</h1>
                 <h2>There are many ways for you to become a FasCat. </h2>
-                <h2><span class="bolder">Give us a call today or <a href="#">email us</a></span><br/>
-                555.555.1212</h2>
+                <h2><span class="bolder">Give us a call today or <a href="mailto:info@fascatcoaching.com">email us</a></span><br/>
+                720.406.7444</h2>
                  <?php wp_nav_menu( array( 'menu_class'  => 'services-list', 'theme_location' => 'chart_nav' ) );   ?>
             </div>
         </div>

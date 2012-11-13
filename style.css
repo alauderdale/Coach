@@ -240,6 +240,10 @@ a:hover{
     color: #da3701;
 }
 
+header .header-info p a{
+    text-decoration: none;
+    color:#333;
+}
 
 /*header*/
 
@@ -491,7 +495,7 @@ header{
     background-image: url(images/table-cat.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    padding:50px 10px 80px 80px;
+    padding:50px 50px 80px 80px;
     z-index: 999;
     
 }

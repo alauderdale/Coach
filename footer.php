@@ -7,7 +7,7 @@
                 </p>
                 <ul class="right footer-links">
                     <li>
-                        <a href="#">email us</a>
+                        <a href="mailto:info@fascatcoaching.com">email us</a>
                     </li>
                     <li>
                          720.406.7444

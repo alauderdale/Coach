@@ -138,6 +138,13 @@ $meta_boxes = array(
                 'type' => 'text',
                 'std' => ''
             ),
+            array(
+                'name' => 'Sidebar Thumb Link',
+                'desc' => 'Select a Thumb Link',
+                'id' => 'side_link',
+                'type' => 'text',
+                'std' => ''
+            ),
         )
     ),
 );
